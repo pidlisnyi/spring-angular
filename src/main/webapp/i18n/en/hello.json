@@ -1,0 +1,23 @@
+{
+    "jhipsterApp": {
+        "hello" : {
+            "home": {
+                "title": "Hellos",
+                "createLabel": "Create a new Hello",
+                "createOrEditLabel": "Create or edit a Hello",
+                "search": "Search for Hello"
+            },
+            "created": "A new Hello is created with identifier {{ param }}",
+            "updated": "A Hello is updated with identifier {{ param }}",
+            "deleted": "A Hello is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Hello {{ id }}?"
+            },
+            "detail": {
+                "title": "Hello"
+            },
+            "name": "Name",
+            "title": "Title"
+        }
+    }
+}

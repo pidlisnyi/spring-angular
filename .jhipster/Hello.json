@@ -1,0 +1,18 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        }
+    ],
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "hello",
+    "pagination": "infinite-scroll"
+}

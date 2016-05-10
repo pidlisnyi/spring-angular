@@ -1,0 +1,5 @@
+@import "bourbon/bourbon";
+
+body {
+  @include background(linear-gradient(royalblue, crimson) left repeat);
+}

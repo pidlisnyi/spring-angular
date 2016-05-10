@@ -1,0 +1,16 @@
+version: '2'
+services:
+    jhipster-app:
+        image: jhipster
+        external_links:
+            - jhipster-mongodb:mongodb
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod
+            - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017
+            - SPRING_DATA_MONGODB_DATABASE=jhipster
+        ports:
+            - 8080:8080
+    jhipster-mongodb:
+        extends:
+            file: mongodb.yml
+            service: jhipster-mongodb

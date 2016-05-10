@@ -1,0 +1,29 @@
+
+<div>
+    <h2><span translate="jhipsterApp.book.detail.title">Book</span> {{vm.book.id}}</h2>
+    <hr>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span translate="jhipsterApp.book.y">Y</span></dt>
+        <dd>
+            <span>{{vm.book.y}}</span>
+        </dd>
+        <dt><span translate="jhipsterApp.book.description">Description</span></dt>
+        <dd>
+            <span>{{vm.book.description}}</span>
+        </dd>
+        <dt><span translate="jhipsterApp.book.publicationDate">Publication Date</span></dt>
+        <dd>
+            <span>{{vm.book.publicationDate | date:'mediumDate'}}</span>
+        </dd>
+        <dt><span translate="jhipsterApp.book.price">Price</span></dt>
+        <dd>
+            <span>{{vm.book.price}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>
